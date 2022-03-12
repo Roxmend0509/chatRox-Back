@@ -1,0 +1,42 @@
+{
+    "users_test_roxana": {
+        "id": {
+            "type": "NUMBER",
+            "allowNull": false,
+            "primaryKey": true,
+            "extra": "auto_increment"
+        },
+        "name": {
+            "type": "STRING",
+            "allowNull": true
+        },
+        "second_name": {
+            "type": "STRING",
+            "allowNull": true
+        },
+        "lastname_1": {
+            "type": "STRING",
+            "allowNull": true
+        },
+        "lastname_2": {
+            "type": "STRING",
+            "allowNull": true
+        },
+        "birthday": {
+            "type": "DATE",
+            "allowNull": true
+        },
+        "email": {
+            "type": "STRING",
+            "allowNull": true
+        },
+        "phone": {
+            "type": "STRING",
+            "allowNull": true
+        },
+        "created": {
+            "type": "DATE",
+            "allowNull": true
+        }
+    }
+}
